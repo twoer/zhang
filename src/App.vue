@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <Form :model="formItem" :label-width="80">
+        <Form :model="formItem" :label-width="50">
             <FormItem label="说到">
                 <Input v-model="formItem.shuo" placeholder=""></Input>
             </FormItem>
