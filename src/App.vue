@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <Form :model="formItem" :label-width="120">
+        <Form :model="formItem" :label-width="80">
             <FormItem label="说到">
                 <Input v-model="formItem.shuo" placeholder=""></Input>
             </FormItem>
@@ -53,7 +53,8 @@ export default {
     position: absolute;
     top: 40%;
     left: 50%;
-    width: 800px;
+    width: 90%;
+    max-width: 800px;
     transform: translate(-50%, -50%);
 }
 .form-item-action
