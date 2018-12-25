@@ -35,6 +35,7 @@ export default {
         copy () {
             document.querySelector('textarea').select()
             document.execCommand('copy')
+            this.$Message.info('复制成功');
         }
     }
 }
